@@ -1,9 +1,9 @@
 # MRVN_Bot
 ### 已停機，直到尋找到新的雲託管平台
+### 經過Discord驗證才能加入超過100個伺服器，但考量到replit免費版本的性能資源有限，最終暫時決定延用此限制
 
-一台服務馬文 
 
-使用Discord.py製作的Discord bot
+一台使用Discord.py製作的服務馬文(Discord bot)
 
 ![1](https://github.com/DMCDN/MRVN_Bot/assets/128150279/cacc2c46-a632-40ca-90f0-acb6db047fad)
 
