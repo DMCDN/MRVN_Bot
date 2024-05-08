@@ -11,16 +11,45 @@
 
 ## Discord
 ### 動態語音頻道
+
+先使用/setdynvoice 設置設置語音頻道
+
+![voice](https://github.com/DMCDN/MRVN_Bot/assets/128150279/a6764831-fb18-4cb5-b525-5b7b2fed65b4)
+
+接著進入該頻道 即可創建自己的語音頻道
+
+當該語音頻道無人時會自動移除
+
+https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b07894e9a8a4
+
+
 ### 自訂義歡迎頻道
+使用/set_welcome 設置設置歡迎頻道
+
+![xi](https://github.com/DMCDN/MRVN_Bot/assets/128150279/ef15d560-e5ac-4cde-af62-2c95dd66783e)
+
+::: 新成員加入後即會在指定的頻道盛邀新成員
+
+![XI2](https://github.com/DMCDN/MRVN_Bot/assets/128150279/5057448b-50fd-4860-b03a-98dbbcc602d6)
+
 ### 用戶頭像獲取
-### 其餘互動
+用於獲取指定用戶最高畫質頭貼
+
+有兩個參數：
+* usertag(必填):欲提取的用戶
+* displayselfonly(選填,預設False):該指令結果只對自己顯示
+
+![ICON](https://github.com/DMCDN/MRVN_Bot/assets/128150279/fd27f9c5-728a-4646-9b23-8f1562fb3397)
+![ICON2](https://github.com/DMCDN/MRVN_Bot/assets/128150279/cbe948b5-674f-46d5-a139-878c61899e5c)
+
+### 互動彩蛋
+
+目前有7種互動彩蛋，可使用指令將其關閉
+
+![image](https://github.com/DMCDN/MRVN_Bot/assets/128150279/2fbc3d1d-1115-4a3a-b9a9-596ab377765a)
 
 ## Apex Legends：
 ### 帳號綁定
-```
-/Apex_bind <UserName>
-```
-說明：
 
 將一個EA遊戲帳號與Discord帳號綁定
   
@@ -29,64 +58,30 @@
     
 ### 玩家資料查詢
 
-```
-/Apex_UserInfo [UserName]
-```
-說明：
-
 查詢玩家資料
-  
-參數說明:
-  - UserName (可選): 欲查詢玩家的EA帳號名稱(未填入則查詢自己的)
 
 ![apex-bind](https://github.com/DMCDN/MRVN_Bot/assets/128150279/c3ea8155-a2b7-448a-b046-8cd741182a44)
 
 ### Rank動態追蹤
 
-```
-/Apex_RankTrack [UserName]
-```
-說明：
-
 追蹤指定玩家的Rank走向，每2分鐘更新一次(可透過點擊更新圖示手動更新)，玩家離線則會自動停止追蹤。
 
-參數說明:
-  - UserName (可選): 欲追蹤玩家的EA帳號名稱(未填入則查詢自己的)
-    
 ![apex-1](https://github.com/DMCDN/MRVN_Bot/assets/128150279/db97b699-209b-4b0d-8a59-2b8943ee2c36)
 
 ## Valorant
  ### 帳號綁定
-```
-/Val_bind <UserName> <PassWord>
-```
-說明：
 
 將一個Riot遊戲帳號與Discord帳號綁定
-  
- 參數說明:
-  - UserName (必選)：Riot帳號名稱
-  - PassWord (必選)：Riot密碼
-
 
 ### 玩家每日商成查詢
 
-```
-/Val_Shop
-```
-說明：
-
-查詢玩家個人商城物品，限已綁定用戶使用
+查詢玩家當日的個人商城物品，並顯示價格、最高等級、展示影片，限已綁定用戶使用
   
 ![val-shop](https://github.com/DMCDN/MRVN_Bot/assets/128150279/e4c0e70d-7d61-4c4a-9876-70ba2ee514a5)
 
 
 ### 對局資料查詢
 
-```
-/Val_BattleInfo
-```
-說明：
 
 查詢玩家當前對局中所有人的資訊，在進入載入畫面後即可隨時使用，限已綁定用戶使用
       
