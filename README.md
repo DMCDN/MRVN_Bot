@@ -10,9 +10,9 @@
 # 功能
 
 ## Discord
-### 動態語音頻道
+### 動態語音頻道管理
 
-先使用/setdynvoice 設置設置語音頻道
+使用/setdynvoice 設置設置語音頻道
 
 ![voice](https://github.com/DMCDN/MRVN_Bot/assets/128150279/a6764831-fb18-4cb5-b525-5b7b2fed65b4)
 
@@ -28,7 +28,20 @@ https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b0789
 
 ![xi](https://github.com/DMCDN/MRVN_Bot/assets/128150279/ef15d560-e5ac-4cde-af62-2c95dd66783e)
 
-::: 新成員加入後即會在指定的頻道盛邀新成員
+  * 一個可選參數：
+  
+    - WelcomeImageUrl：歡迎圖片連結 
+      
+  * 一個必選參數
+     用於設計自訂義歡迎詞，可使用以下參數自行設計：
+  
+    - UserTag：用戶TAG
+      
+    - GroupNum：當前群組人數
+      
+  如： /set_welcometext Text：歡迎{UserTag}，您是本群組第{GroupNum}位用戶 WelcomeImageUrl：https：...
+  
+  新成員加入後即會在指定的頻道發送歡迎訊息，並根據設置的參數發送自訂義歡迎詞()
 
 ![XI2](https://github.com/DMCDN/MRVN_Bot/assets/128150279/5057448b-50fd-4860-b03a-98dbbcc602d6)
 
@@ -48,13 +61,15 @@ https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b0789
 
 ![image](https://github.com/DMCDN/MRVN_Bot/assets/128150279/2fbc3d1d-1115-4a3a-b9a9-596ab377765a)
 
+# 其他遊戲類功能
+
+透過串接遊戲API，提取遊戲玩家資料後製作的功能
+
 ## Apex Legends：
 ### 帳號綁定
 
 將一個EA遊戲帳號與Discord帳號綁定
   
- 參數說明:
-  - UserName (必選)：EA帳號名稱
     
 ### 玩家資料查詢
 
