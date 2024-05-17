@@ -58,15 +58,24 @@ https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b0789
 ![ICON](https://github.com/DMCDN/MRVN_Bot/assets/128150279/fd27f9c5-728a-4646-9b23-8f1562fb3397)
 ![ICON2](https://github.com/DMCDN/MRVN_Bot/assets/128150279/cbe948b5-674f-46d5-a139-878c61899e5c)
 
+### 批量刪除訊息
+
+使用指令： /clear {訊息數量}
+
+即可批量刪除指定數量訊息
+
+這裡有個限制，Discord API有寫，機器人只能管理兩個星期以內的訊息，超過這段時間內的訊息Bot是無法刪除的
+
+
 ### 互動彩蛋
 
 目前有7種互動彩蛋，可使用指令將其關閉
 
 ![image](https://github.com/DMCDN/MRVN_Bot/assets/128150279/2fbc3d1d-1115-4a3a-b9a9-596ab377765a)
 
-# 其他遊戲類功能
+# 遊戲類功能
 
-透過串接遊戲API，提取遊戲玩家資料後製作的功能
+透過串接遊戲API，提取遊戲玩家資料後製作出的功能
 
 ## Apex Legends：
 ### 帳號綁定
