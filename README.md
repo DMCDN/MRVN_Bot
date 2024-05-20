@@ -1,12 +1,12 @@
 # MRVN_Bot
 ### 目前已停機
 
-原版是雲託管在replit上，但試用期過了
-
 經過Discord驗證才能加入超過100個伺服器，當初考量到replit免費版本的性能資源有限，最後也決定不做擴充
 
 
-一台使用Discord.py製作的服務馬文(Discord bot)
+一台使用Discord.py製作的Discord bot
+
+為群組管理員與成員訂製的各種功能
 
 ![1](https://github.com/DMCDN/MRVN_Bot/assets/128150279/cacc2c46-a632-40ca-90f0-acb6db047fad)
 
@@ -80,7 +80,7 @@ https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b0789
 ## Apex Legends：
 ### 帳號綁定
 
-將一個EA遊戲帳號與Discord帳號綁定
+將一個EA遊戲帳號與Discord帳號綁定，方便後續操作
   
     
 ### 玩家資料查詢
@@ -91,7 +91,7 @@ https://github.com/DMCDN/MRVN_Bot/assets/128150279/f2bbd76e-59fe-41f8-8eab-b0789
 
 ### Rank動態追蹤
 
-追蹤指定玩家的Rank走向，每2分鐘更新一次(可透過點擊更新圖示手動更新)，玩家離線則會自動停止追蹤。
+追蹤指定玩家的Rank走向，每2分鐘更新一次(可透過點擊更新圖示手動更新)，檢測到玩家離線則會自動停止追蹤。
 
 ![apex-1](https://github.com/DMCDN/MRVN_Bot/assets/128150279/db97b699-209b-4b0d-8a59-2b8943ee2c36)
 
